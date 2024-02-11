@@ -1,0 +1,47 @@
+<% layout('/layouts/boiler') -%>
+<div class="row mt-3">
+    <div class="col-8 offset-2">
+    <h3>Edit details</h3>
+    <form method="post" action="/listings/<%=data._id%>?_method=PUT" novalidate class="needs-validation" >
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input class="form-control" name="listing[title]" type="text" value="<%= data.title%>" required>
+            <div class="invalid-feedback"> Title is invalid </div>
+          </div>
+        
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" name="listing[description]"  required> <%= data.description%></textarea>
+            <div class="invalid-feedback"> Description is invalid </div>
+        </div>
+        
+        <div class="row">
+            <div class="mb-3 col-md-4">
+                <label for="price" class="form-label">Price</label>
+            <input class="form-control" name="listing[price]" type="number" value="<%= data.price%>" required>
+            <div class="invalid-feedback"> Price is invalid </div>
+            </div>
+            <div class="mb-3 col-md-8">
+                <label for="country" class="form-label">Country</label>
+                <input class="form-control" name="listing[country]" type="text" value="<%= data.country%>" required>
+                <div class="invalid-feedback"> Country name is invalid </div>
+            </div>
+        </div>
+
+      <div class="mb-3">
+        <label for="location" class="form-label">Locatioin</label>
+        <input class="form-control" name="listing[location]" type="text" value="<%= data.location%>" required>
+        <div class="invalid-feedback"> Location is invalid </div>
+      </div>
+        
+        <div class="mb-3">
+            <label for="image" class="form-label">Image Link/URL</label>
+            <input class="form-control" name="listing[image]" type="text" value="<%=data.image%>" required>
+            <div class="invalid-feedback"> Link is invalid</div>
+        </div>
+        
+        <button class="btn btn-dark sum-btn">Summit</button>
+        <br><br>
+    </form>
+</div>
+</div>

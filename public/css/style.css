@@ -1,0 +1,100 @@
+body{ 
+    /* background-color: pink; */
+     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+
+}
+.title{
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    text-align: center !important;
+    color: rebeccapurple;
+}
+.container{
+    flex: 1;
+}
+
+.navbar{
+    background-color: white;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.navbar-brand{
+    color: rgb(232, 90, 90);
+    font-size: 2rem;
+}
+.nav-link{
+    color: rgb(24, 21, 21) !important;
+}
+
+/* footer */
+.f-info-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links, .f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: gray;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* card */
+.listing-card{
+    border:none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 15rem;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.listing-link{
+    text-decoration: none !important;
+   
+}
+
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color: white;
+
+}
+/* newpage */
+.add-btn{
+   background-color:  rgb(180, 79, 79);
+}
+/* updatepage */
+.sum-btn{
+    background-color: rgb(179, 90, 90);
+}
