@@ -1,5 +1,5 @@
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Font_Awesome_5_solid_drafting-compass.svg/768px-Font_Awesome_5_solid_drafting-compass.svg.png?20180810205922)
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Font_Awesome_5_solid_drafting-compass.svg/240px-Font_Awesome_5_solid_drafting-compass.svg.png)
 
 
 # MarketPlace
